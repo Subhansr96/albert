@@ -4,7 +4,7 @@ display:flex;
 justify-content:space-between;   
 height:100vh;
 width:90vw;
-margin:5% auto;
+margin:5% auto 0% auto;
 background-color:#f8f8fa;
 
 `

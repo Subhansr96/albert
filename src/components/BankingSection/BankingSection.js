@@ -7,7 +7,7 @@ import {
   IconWrapper,
   TextWrapper,
 } from "./BankingSection.styles.js";
-import cards from "../../static/images/cards.jpg";
+import cards from "../../static/images/cardss.png";
 import { useState } from "react";
 import {IoMdAddCircleOutline} from 'react-icons/io';
 import {IoMdAddCircle} from "react-icons/io"
