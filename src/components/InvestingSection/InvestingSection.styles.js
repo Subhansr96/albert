@@ -34,6 +34,7 @@ img{
 @media (max-width:768px){
     height:90vh;
     border-radius:10px;
+    margin-top:5%;
 }
 `
 
@@ -47,14 +48,17 @@ export const CardImage=styled.img`
 width:48%;
 height:100%;
 @media (max-width:768px){
-    width:80%;
+    width:90%;
     height:80%;
-    margin-top:17%; 
+    margin-top:15%; 
     margin-bottom:20%;
 }
 `
 export const TextWrapper=styled.div`
 padding-right:15%;
+@media (max-width:768px){
+    padding-top:10%;
+}
 `
 
 export const InvestingSecondaryWrapper=styled.div`
@@ -64,7 +68,8 @@ height:87vh;
 justify-content:space-between;
 padding:1% 10% 0% 6%;
 @media (max-width:768px){
-    flex-direction:column;   
+    flex-direction:column;  
+    justify-content:space-between; 
     height:80vh;
 }
 `
